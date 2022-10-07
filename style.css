@@ -3,11 +3,15 @@ body {
     justify-content: center;
     background-color: #a7acba;
 }
-
+#main {
+    display: inline-flex;
+}
 .container {
     width: 18em;
     margin-top: 2em;
-
+    margin-right: 10em;
+    margin-left: 10em;
+    
 }
 
 .inputContainer, .outputContainer{
@@ -24,10 +28,14 @@ body {
 }
 .outputContainer{
     background-color: white;
+    width: 100%;
+    word-break: break-all;
+    text-align: center;
 }
 
 h1 {
     color: #2d385b;
+    padding: 1em;
 }
 
 input{
@@ -43,4 +51,18 @@ input{
 
 input:focus{
     outline: none;
+}
+
+.text-bin h1 {
+    color:white;
+    text-align: center;
+    margin: 0;
+    background-color: #394b86;
+}
+
+.text-hex h1 {
+    color:white;
+    text-align: center;
+    margin: 0;
+    background-color: #394b86;
 }

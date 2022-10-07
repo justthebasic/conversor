@@ -8,13 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container">
-        <div class="inputContainer">
-            <input type="text" onchange="converter(this.value)">
+    <div id="main">
+
+        <div class="container">
+            <div class="text-bin">
+                <h1>Conversor bin</h1>
+
+            </div>
+            <div class="inputContainer">
+                <input type="text" placeholder="digite aqui" onchange="converterbin(this.value)">
+            </div>
+            <div class="outputContainer">
+                <h1 id="res">0</h1>
+            </div>
         </div>
-        <div class="outputContainer">
-            <h1 id="res">0</h1>
+        
+        <div class="container">
+            <div class="text-hex">
+                <h1>Conversor hex</h1>
+
+            </div>
+            <div class="inputContainer">
+                <input type="text" placeholder="digite aqui" onchange="converterhex(this.value)">
+            </div>
+            <div class="outputContainer">
+                <h1 id="res2">0</h1>
+            </div>
         </div>
     </div>
 
